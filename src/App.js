@@ -8,7 +8,9 @@ import {GlobalStorage} from './context/GlobalContext'
 
 
 function App() {
-
+  fetch(process.env.REACT_APP_API_URL || 'http://localhost:80880/api/v1')
+  .then(() => console.log('DEU CERTO'))
+  .catch(() => console.log('DEU ERRO'))
 
   return (
     <div className="App">
