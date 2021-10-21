@@ -1,0 +1,33 @@
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: .8px solid rgb(184, 184, 184);
+    position: relative;
+    margin: 0 auto;
+    bottom: 9rem;
+    z-index: 1;
+
+  }
+
+  @media (max-width: 600px)
+{
+  .leaflet-container {
+    height: 100%;
+    bottom: 20rem;
+  }
+
+  #map-div{
+    height: 100%;
+
+  }
+}
+
+
+
+
+
+  
+
+  
+  
